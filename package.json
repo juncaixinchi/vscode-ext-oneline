@@ -2,7 +2,7 @@
     "name": "vscode-ext-oneline",
     "displayName": "Oneline",
     "description": "VS Code Extension: Convert selected lines into one line",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "juncaixinchi",
     "repository": "https://github.com/juncaixinchi/vscode-ext-oneline.git",
     "engines": {

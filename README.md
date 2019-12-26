@@ -2,14 +2,6 @@
 
 VS Code Extension: Convert selected lines into one line
 
-## Setup
+## Demo
 
-```bash
-git clone https://github.com/juncaixinchi/vscode-ext-online.git
-cd vscode-ext-online
-npm install
-```
-
-## Debug
-
-Press `F5`
+![Demo](demo.gif)

@@ -1,0 +1,44 @@
+{
+    "name": "vscode-ext-online",
+    "displayName": "Oneline",
+    "description": "VS Code Extension: Convert selected lines into one line",
+    "version": "0.0.1",
+    "publisher": "juncaixinchi",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.oneline"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.oneline",
+                "title": "Convert Selected Lines Into One Line"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "extension.oneline"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "tslint ./src/*.ts",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^6.0.40",
+        "tslint": "^5.16.0",
+        "typescript": "^3.5.1",
+        "@types/vscode": "^1.32.0"
+    }
+}

@@ -4,6 +4,7 @@
     "description": "VS Code Extension: Convert selected lines into one line",
     "version": "0.0.1",
     "publisher": "juncaixinchi",
+    "repository": "https://github.com/juncaixinchi/vscode-ext-online.git",
     "engines": {
         "vscode": "^1.32.0"
     },

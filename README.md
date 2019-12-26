@@ -1,4 +1,4 @@
-# vscode-ext-online
+# vscode-ext-oneline
 
 VS Code Extension: Convert selected lines into one line
 
